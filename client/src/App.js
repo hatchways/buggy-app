@@ -1,11 +1,9 @@
 import React from "react";
 
-import Signup from "./components/Signup";
-
-import "./App.css";
+import Mambo from "./components/Mambo";
 
 function App() {
-  return <Signup></Signup>;
+  return <Mambo></Mambo>;
 }
 
 export default App;

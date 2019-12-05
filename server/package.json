@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
-    "debug": "nodemon  --inspect-brk ./bin/www"
+    "debug-startup": "nodemon  --inspect-brk ./bin/www",
+    "debug-server": "nodemon  --inspect ./bin/www"
   },
   "dependencies": {
     "debug": "~2.6.9",
     "dotenv": "^8.0.0",
+    "eslint": "^6.7.2",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",

@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
-    "debug-startup": "nodemon  --inspect-brk ./bin/www",
-    "debug-server": "nodemon  --inspect ./bin/www"
+    "debug-server": "nodemon  --inspect ./bin/www",
+    "debug-startup": "nodemon  --inspect-brk ./bin/www"
   },
   "dependencies": {
     "debug": "~2.6.9",
